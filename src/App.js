@@ -141,7 +141,7 @@ export default function App() {
               >
                 <Menu size={24} />
               </button>
-              <a href="#" className="logo-link">
+              <a href="/" className="logo-link">
                 <div className="logo-icon">
                   <TrendingUp size={24} className="transform -rotate-45" />
                 </div>
@@ -306,16 +306,16 @@ export default function App() {
           <div>
             <h4 className="footer-title">고객 센터</h4>
             <ul className="footer-links">
-              <li><a href="#">공지사항</a></li>
-              <li><a href="#">배송/반품 안내</a></li>
-              <li><a href="#">1:1 문의하기</a></li>
+              <li><button type="button" className="footer-link-btn">공지사항</button></li>
+              <li><button type="button" className="footer-link-btn">배송/반품 안내</button></li>
+              <li><button type="button" className="footer-link-btn">1:1 문의하기</button></li>
             </ul>
           </div>
           <div>
             <h4 className="footer-title">법적 고지</h4>
             <ul className="footer-links">
-              <li><a href="#">이용약관</a></li>
-              <li><a href="#">개인정보처리방침</a></li>
+              <li><button type="button" className="footer-link-btn">이용약관</button></li>
+              <li><button type="button" className="footer-link-btn">개인정보처리방침</button></li>
             </ul>
           </div>
         </div>
